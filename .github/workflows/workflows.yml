@@ -16,13 +16,30 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'   # use your preferred Node version
+          node-version: '18'
 
       - name: Install dependencies
-        run: npm ci
+        run: |
+          echo "Installing npm dependencies..."
+          npm ci
+
+      - name: Show project structure before Hexo build
+        run: |
+          echo "Listing current directory:"
+          ls -al
+          echo "Checking Hexo version:"
+          npx hexo version
 
       - name: Generate static files
-        run: npx hexo generate
+        run: |
+          echo "Running Hexo generate..."
+          npx hexo generate
+        continue-on-error: true
+
+      - name: Show output directory after build
+        run: |
+          echo "Listing ./public contents:"
+          ls -al ./public || echo "Public directory not found."
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
