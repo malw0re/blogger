@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: |
           echo "Installing npm dependencies..."
-          npm ci
+          npm install
 
       - name: Show project structure before Hexo build
         run: |
