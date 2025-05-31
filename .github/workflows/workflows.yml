@@ -34,7 +34,6 @@ jobs:
         run: |
           echo "Running Hexo generate..."
           npx hexo generate
-        continue-on-error: true
 
       - name: Show output directory after build
         run: |
@@ -44,5 +43,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.BLOG }}
           publish_dir: ./public
