@@ -3,7 +3,7 @@ name: Hexo Deploy
 on:
   push:
     branches:
-      - main   # or your default branch
+      - main
 
 jobs:
   build-deploy:
@@ -20,28 +20,17 @@ jobs:
 
       - name: Install dependencies
         run: |
-          echo "Installing npm dependencies using npm ci..."
+          echo "Installing npm dependencies in my-blog/..."
+          cd my-blog
           npm ci
-
-      - name: Show project structure before Hexo build
-        run: |
-          echo "Listing current directory:"
-          ls -al
-          echo "Checking Hexo version:"
-          npx hexo version
 
       - name: Generate static files
         run: |
-          echo "Running Hexo generate..."
+          cd my-blog
           npx hexo generate
-
-      - name: Show output directory after build
-        run: |
-          echo "Listing ./public contents:"
-          ls -al ./public || echo "Public directory not found."
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.BLOG }}
-          publish_dir: ./public
+          publish_dir: ./my-blog/public
