@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://malw0re.github.io/categories-research/index.html</loc>
+    <loc>https://malw0re.github.io/malwore/2023/09/15/metasploit-1/</loc>
     
     <lastmod>2025-07-09</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/categories-writeups/index.html</loc>
+    <loc>https://malw0re.github.io/malwore/2023/10/05/metasploit-2/</loc>
     
     <lastmod>2025-07-09</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/2024/01/04/acls/</loc>
+    <loc>https://malw0re.github.io/malwore/about/index.html</loc>
     
     <lastmod>2025-07-09</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/2023/08/09/ad-credential-enumeration/</loc>
+    <loc>https://malw0re.github.io/malwore/categories-research/index.html</loc>
     
     <lastmod>2025-07-09</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/2025/05/31/certificate/</loc>
+    <loc>https://malw0re.github.io/malwore/categories-writeups/index.html</loc>
     
     <lastmod>2025-07-09</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/2024/01/20/easyCTF/</loc>
+    <loc>https://malw0re.github.io/malwore/2024/01/04/acls/</loc>
     
     <lastmod>2025-07-09</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/2023/10/23/forensics/</loc>
+    <loc>https://malw0re.github.io/malwore/2023/08/09/ad-credential-enumeration/</loc>
     
     <lastmod>2025-07-09</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/2023/10/13/insecure-rdp/</loc>
+    <loc>https://malw0re.github.io/malwore/2025/05/31/certificate/</loc>
     
     <lastmod>2025-07-09</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/2023/07/13/kerberos-101/</loc>
+    <loc>https://malw0re.github.io/malwore/2024/01/20/easyCTF/</loc>
     
     <lastmod>2025-07-09</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/2024/02/29/manager/</loc>
+    <loc>https://malw0re.github.io/malwore/2023/10/23/forensics/</loc>
     
     <lastmod>2025-07-09</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/2023/09/15/metasploit-1/</loc>
+    <loc>https://malw0re.github.io/malwore/2023/10/13/insecure-rdp/</loc>
     
     <lastmod>2025-07-09</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/2023/10/05/metasploit-2/</loc>
+    <loc>https://malw0re.github.io/malwore/2023/07/13/kerberos-101/</loc>
     
     <lastmod>2025-07-09</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/about/index.html</loc>
+    <loc>https://malw0re.github.io/malwore/2024/02/29/manager/</loc>
     
     <lastmod>2025-07-09</lastmod>
     
@@ -120,7 +120,7 @@
   
 
   <url>
-    <loc>https://malw0re.github.io/</loc>
+    <loc>https://malw0re.github.io/malwore</loc>
     <lastmod>2025-07-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -128,56 +128,56 @@
 
   
   <url>
-    <loc>https://malw0re.github.io/tags/Active-Directory/</loc>
+    <loc>https://malw0re.github.io/malwore/tags/Active-Directory/</loc>
     <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/tags/access-control-list/</loc>
+    <loc>https://malw0re.github.io/malwore/tags/access-control-list/</loc>
     <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/tags/htb/</loc>
+    <loc>https://malw0re.github.io/malwore/tags/htb/</loc>
     <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/tags/tryhackme/</loc>
+    <loc>https://malw0re.github.io/malwore/tags/tryhackme/</loc>
     <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/tags/web/</loc>
+    <loc>https://malw0re.github.io/malwore/tags/web/</loc>
     <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/tags/ctf/</loc>
+    <loc>https://malw0re.github.io/malwore/tags/ctf/</loc>
     <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/tags/rdp/</loc>
+    <loc>https://malw0re.github.io/malwore/tags/rdp/</loc>
     <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/tags/Metasploit-ctf/</loc>
+    <loc>https://malw0re.github.io/malwore/tags/Metasploit-ctf/</loc>
     <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -186,14 +186,14 @@
 
   
   <url>
-    <loc>https://malw0re.github.io/categories/Research/</loc>
+    <loc>https://malw0re.github.io/malwore/categories/Research/</loc>
     <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://malw0re.github.io/categories/Writeups/</loc>
+    <loc>https://malw0re.github.io/malwore/categories/Writeups/</loc>
     <lastmod>2025-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
