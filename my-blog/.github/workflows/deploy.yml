@@ -2,8 +2,8 @@ name: Deploy Hexo Blog to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]  # Run on push to main branch
-  workflow_dispatch:       # Allow manual run from GitHub UI
+    branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Clean & Generate static files
+      - name: Generate static files
         run: |
           npx hexo clean
           npx hexo generate
@@ -29,6 +29,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages     # Deployment branch
-          publish_dir: ./public        # Hexo output directory
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: ./public
