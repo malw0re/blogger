@@ -2,34 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://malw0re.github.io/malwore/2023/07/13/kerberos-101/</loc>
-    
-    <lastmod>2025-07-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://malw0re.github.io/malwore/2024/02/29/manager/</loc>
-    
-    <lastmod>2025-07-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://malw0re.github.io/malwore/2023/09/15/metasploit-1/</loc>
-    
-    <lastmod>2025-07-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://malw0re.github.io/malwore/2023/10/05/metasploit-2/</loc>
+    <loc>https://malw0re.github.io/malwore/categories-research/index.html</loc>
     
     <lastmod>2025-07-09</lastmod>
     
@@ -39,15 +12,6 @@
   
   <url>
     <loc>https://malw0re.github.io/malwore/about/index.html</loc>
-    
-    <lastmod>2025-07-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://malw0re.github.io/malwore/categories-research/index.html</loc>
     
     <lastmod>2025-07-09</lastmod>
     
@@ -111,6 +75,42 @@
   
   <url>
     <loc>https://malw0re.github.io/malwore/2023/10/13/insecure-rdp/</loc>
+    
+    <lastmod>2025-07-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://malw0re.github.io/malwore/2023/07/13/kerberos-101/</loc>
+    
+    <lastmod>2025-07-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://malw0re.github.io/malwore/2024/02/29/manager/</loc>
+    
+    <lastmod>2025-07-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://malw0re.github.io/malwore/2023/09/15/metasploit-1/</loc>
+    
+    <lastmod>2025-07-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://malw0re.github.io/malwore/2023/10/05/metasploit-2/</loc>
     
     <lastmod>2025-07-09</lastmod>
     
